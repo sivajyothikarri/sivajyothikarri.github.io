@@ -1,0 +1,236 @@
+.navbar-dark {
+  background-color: #420516;
+  font-family: "Brush Script MT", Cursive;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 0 7px #E63E6D;
+          box-shadow: 0 0 7px #E63E6D;
+}
+
+.index {
+  background-color: #1a1918a8;
+  padding: 3.5rem;
+  padding-bottom: 3;
+  margin-bottom: 2;
+  margin: 1.5rem;
+}
+
+.index .card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 0px 17px #ffcf40;
+          box-shadow: 0px 0px 17px #ffcf40;
+  position: relative;
+}
+
+.index .profile {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 10px #7D1935;
+          box-shadow: 0 0 10px #7D1935;
+  border: 1px solid #420516;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("./assets/p.jpg");
+}
+
+.index .bio {
+  color: #420516;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.index #mySidenav a {
+  position: absolute;
+  padding: 25px;
+  width: 190px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  border-radius: 40px 0 0 40px;
+}
+
+.index #mySidenav a:hover {
+  -webkit-box-shadow: 0 0 19px #ffffff;
+          box-shadow: 0 0 19px #ffffff;
+}
+
+.index #mySidenav a.active {
+  -webkit-box-shadow: 0 0 19px #ffffff;
+          box-shadow: 0 0 19px #ffffff;
+}
+
+.index #ex {
+  top: 80px;
+  background-color: #ffcf40;
+}
+
+.index #ed {
+  top: 150px;
+  background-color: #2196F3;
+}
+
+.index #sk {
+  top: 290px;
+  background-color: #470c8de6;
+}
+
+.index #pr {
+  top: 220px;
+  background-color: #555;
+}
+
+.index ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.index li {
+  padding-right: 5px;
+  padding-bottom: 0;
+}
+
+.index .ul-custom {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.index .ul-custom li {
+  margin: 0.86rem;
+}
+
+.index .a-custom {
+  color: #ffcf40;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.index .a-custom:hover {
+  background-color: #420516;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 0px 3px gold;
+          box-shadow: 0px 0px 0px 3px gold;
+  border-radius: 0px 5px 0px 5px;
+}
+
+.index .a-custom.active {
+  background-color: #420516;
+  color: #ffffff;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 0px 3px gold;
+          box-shadow: 0px 0px 0px 3px gold;
+  border-radius: 0px 5px 0px 5px;
+}
+
+.index .custom-div {
+  text-align: justify;
+}
+
+.index td a {
+  text-decoration: none;
+  color: #E63E6D;
+}
+
+footer {
+  background-color: #420516 !important;
+}
+
+footer i {
+  font-size: 1.8rem;
+  padding-right: 2px;
+  color: #ffffff;
+}
+
+footer i:hover {
+  color: #ffcf40;
+  cursor: pointer;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 0.86rem;
+}
+
+.dark-color {
+  background-color: #261C2C !important;
+}
+
+.dark-color .navbar-dark {
+  background-color: #261C2C !important;
+  -webkit-box-shadow: 0 0 7px #6E85B2 !important;
+          box-shadow: 0 0 7px #6E85B2 !important;
+}
+
+.dark-color .card {
+  -webkit-box-shadow: 0px 0px 17px #6E85B2;
+          box-shadow: 0px 0px 17px #6E85B2;
+}
+
+.dark-color footer {
+  background-color: #261C2C !important;
+}
+
+.dark-color footer i:hover {
+  color: #6E85B2 !important;
+}
+
+.dark-color .profile {
+  -webkit-box-shadow: 0 0 10px #3E2C41 !important;
+          box-shadow: 0 0 10px #3E2C41 !important;
+  border: 1px solid #261C2C !important;
+}
+
+.dark-color .bio {
+  color: #6E85B2 !important;
+}
+
+.dark-color #ex {
+  background-color: #1D2D50 !important;
+}
+
+.dark-color #ed {
+  background-color: #133B5C !important;
+}
+
+.dark-color #pr {
+  background-color: #1E5F74 !important;
+}
+
+.dark-color #sk {
+  background-color: #5C527F !important;
+}
+
+.dark-color .a-custom:hover {
+  background-color: #261C2C !important;
+}
+
+.dark-color .a-custom.active {
+  background-color: #261C2C !important;
+}
+
+.dark-color table, .dark-color td, .dark-color th {
+  background-color: #3E2C41 !important;
+  color: #ffffff !important;
+}
+
+.dark-color td a {
+  text-decoration: none !important;
+  color: #ffcf40 !important;
+}
+/*# sourceMappingURL=style.css.map */

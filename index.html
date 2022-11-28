@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <title>Siva Jyothi</title>
+</head>
+
+<body id="getBody" class="index">
+  <div class="row mt-0 pt-0 mb-0 pb-0 no-padding"  style="color:Green">
+    <div id="mySidenav" class="col-1 mr-0 pr-0 d-none d-lg-block d-xl-block">
+      <a href="#" id="ex"  class="tabLinks" onclick="changeTabs(event, 'exprience')">Exprience</a>
+      <a href="#" id="ed" class="tabLinks" onclick="changeTabs(event, 'education')">Education</a>
+      <a href="#" id="pr" class="tabLinks" onclick="changeTabs(event, 'projects')">Projects</a>
+      <a href="#" id="sk" class="tabLinks" onclick="changeTabs(event, 'skills')">Skills</a>
+    </div>
+    <div class="row d-lg-none d-xl-none d-sm-block">
+        <ul class="justify-content-center ul-custom mt-3">
+          <li>
+            <a class="a-custom tabLinks" onclick="changeTabs(event, 'exprience')">Exprience</a>
+          </li>
+          <li>
+            <a class="a-custom tabLinks" onclick="changeTabs(event, 'education')">Education</a>
+          </li>
+          <li>
+            <a class="a-custom tabLinks" onclick="changeTabs(event, 'projects')">Projects</a>
+          </li>
+          <li>
+            <a class="a-custom tabLinks" style="color:Green" onclick="changeTabs(event, 'skills')">Skills</a>
+          </li>
+          <!-- <li>
+          <a class="a-custom tabLinks" href="resume/Latest Resume.pdf" target="_blank">Download Resume</a>
+        </li> -->
+        </ul>
+    </div>
+    <div class="col-lg-11 col-sm-12">
+      <div class="container card">
+        <div class="row pt-2">
+          <div class="col-12">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand tabLinks" href="#" onclick="changeTabs(event, 'biography')" >Biography</a>
+                <!--<div class="form-check form-switch">
+                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onchange="changeColor(value)"/>
+                </div>-->
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="row mt-5 tabContent align-self-center" id="biography">
+            <div class="col-lg-12 col-sm-12 col-md-12">
+                <!--<button class="profile ml-auto" onclick="speak('My fullname is Siva Jyothi')"></button>-->
+                <!--<button class="button button2" onclick="speak('My fullname is Siva Jyothi')">Siva Jyothi</button>-->
+                <h1 class="button button2" style="color: #2196F3; text-align: center;">   Siva Jyothi</h1>
+                <h1 class="button button2" style="color: #2196F3; text-align: center;">+60-17-8864233</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-3 tabContent"  id="bioText">
+          <div class="col-lg-6 col-md-6 col-sm-12 mb-4  custom-div">
+              <div class="bio">
+                  <!--Hello thanks for visiting this page, I am a passionate, driven and friendly developer. Over the
+    future, I am looking forward to ehance my skills in different industries and developing my professional
+    brand. I sincerely hope we can connect soon and appreciate
+    your time and consideration---SJ Testing-->
+                  After more than 6 years of continuous progression and achievement, including 3 years in insurance domain exposure,
+                  enhancement, developent and support operations, I am ready to take the next step in my career.
+                  
+                  Please allow me just a moment to summarize the qualifications that should make an easy match for your search assignments. Strong software
+                  development(Including with different 3rd party tools), enhancement and support experience working with different 
+                  domains such as Insurance, finance, banking,market research, oil & gas etc.
+
+                  Clear history of progression in roles that include peer management (heading 2 junior developers by teaching Agile,
+                  bitbucket and MVC).Extensively accomplished transforming the every month manual upload of leads to database by automate
+                  process to deliver optimal productivity and profitability.Documented all developed, enhanced and supported deliverables.
+                  Responsible for UAT, live and production deployments.Managed and Worked in challenging environment successfully when 
+                  new technology tasks have been assigned.Effective collaboration with different integration teams, vendor teams and mobile
+                  frontend teams(IOS & Android) inorder to release the quality deliverables.As an exprienced software engineer, I am 
+                  particularly valued for my ability to come into ambiguous and unprecedented situations,serving as a trailblazer to bring 
+                  teams together, and achieve goals/targets in time.
+
+                  Now my goal is to expand my horizons in your company with a similar position or explore a different position. I prefer to be based
+                  in Kuala Lumpur or Selangor.I have strong experience with the .Net technologies
+
+                  Thank you! Please contact me if I can answer your questions.
+              </div>
+          </div>
+        </div>
+        <div class="row justify-content-center tabContent my-5" style="display: none;" id="exprience">
+          <div class="col-lg-12 col-sm-12 col-md-12 text-center table-responsive" style="width:100%">
+            <table class="table table-warning" style="width:100%">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Company Name</th>
+                  <th scope="col">Years of Exprience</th>
+                  <th scope="col">Position</th>
+                  <th scope="col">Country</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row">1</th>
+                      <td>MSP Hitect(M) Sdn.Bhd.</td>
+                      <td>Apr 2021-Till Date</td>
+                      <td>API Developer</td>
+                      <td>Malaysia</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2</th>
+                      <td>Accion Labs Sdn.Bhd.</td>
+                      <td>2 Years</td>
+                      <td>Scrum Developer</td>
+                      <td>Malaysia</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td>Lavu Tech Solutions Sdn.Bhd.</td>
+                      <td>Half Year</td>
+                      <td>Software Engineer</td>
+                      <td>Malaysia</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">4</th>
+                      <td>RAMSAT Sdn.Bhd.</td>
+                      <td>1 Year</td>
+                      <td>Dotnet Programmer Analyst</td>
+                      <td>Malaysia</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">5</th>
+                      <td>3 Leads</td>
+                      <td>1 Year</td>
+                      <td>Programmer Analyst</td>
+                      <td>Malaysia</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row justify-content-center my-5 tabContent" id="education" style="display: none;">
+          <div class="col-lg-12 col-sm-12 col-md-12 text-center table-responsive">
+            <table class="table table-warning">
+              <thead>
+                  <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Degree</th>
+                      <th scope="col">Univeristy(College)</th>
+                      <th scope="col">Graduated Year</th>
+                      <th scope="col">GPA</th>
+                      <th scope="col">Country</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row">1</th>
+                      <td>M.C.A</td>
+                      <td>JNTUK(Sri Sai Aditya Institute of Science and Technology)</td>
+                      <td>2011</td>
+                      <td>7.3</td>
+                      <td>INDIA</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2</th>
+                      <td>B.Sc(MECS)</td>
+                      <td>AU(VSL College for Women)</td>
+                      <td>2008</td>
+                      <td>6.1</td>
+                      <td>INDIA</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row justify-content-center my-5 tabContent" id="skills" style="display: none;color:Green">
+          <div class="col-lg-12 col-sm-12 col-md-12 text-center table-responsive" style="color:Green">
+            <table class="table table-warning">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Level</th>
+                  <th scope="col">Exprience</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row">1</th>
+                      <td>C#</td>
+                      <td>Professional</td>
+                      <td>6 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2</th>
+                      <td>ASP.NET</td>
+                      <td>Advanced</td>
+                      <td>4 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td>VB.NET</td>
+                      <td>Intermediate</td>
+                      <td>2 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">4</th>
+                      <td>MVC</td>
+                      <td>Advanced</td>
+                      <td>3 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">5</th>
+                      <td>SQL Server</td>
+                      <td>Advanced</td>
+                      <td>5 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">6</th>
+                      <td>Oracle PLSQL</td>
+                      <td>Intermediate</td>
+                      <td>2 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">7</th>
+                      <td>DevExpress</td>
+                      <td>Advanced</td>
+                      <td>3 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">8</th>
+                      <td>Batch File Programming</td>
+                      <td>Intermediate</td>
+                      <td>2 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">9</th>
+                      <td>C&C++</td>
+                      <td>Pre-Intermediate</td>
+                      <td>2 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">10</th>
+                      <td>HTML</td>
+                      <td>Advanced</td>
+                      <td>3 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">11</th>
+                      <td>CSS</td>
+                      <td>Advanced</td>
+                      <td>3 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">12</th>
+                      <td>JavaScript</td>
+                      <td>Advance</td>
+                      <td>3 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">13</th>
+                      <td>jQuery</td>
+                      <td>Intermediate</td>
+                      <td>2 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">14</th>
+                      <td>Angular JS</td>
+                      <td>Pre-Intermediate</td>
+                      <td>1 year</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">15</th>
+                      <td>Crystal Reports</td>
+                      <td>Professional</td>
+                      <td>5 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">16</th>
+                      <td>SSRS Reports</td>
+                      <td>Advanced</td>
+                      <td>3 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">17</th>
+                      <td>Window Services</td>
+                      <td>Advanced</td>
+                      <td>3 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">18</th>
+                      <td>Xamarin</td>
+                      <td>Beginner</td>
+                      <td>1 year</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">19</th>
+                      <td>.Net Framework</td>
+                      <td>Professional</td>
+                      <td>5 years</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">19</th>
+                      <td>.Net Core</td>
+                      <td>Pre-Intermediate</td>
+                      <td>1 year</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">20</th>
+                      <td>Bitbucket</td>
+                      <td>Advanced</td>
+                      <td>3 year</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">21</th>
+                      <td>SVN & TFS</td>
+                      <td>Advanced</td>
+                      <td>4 year</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="row justify-content-center my-5 tabContent" id="projects" style="display: none;">
+          <div class="col-lg-12 col-sm-12 col-md-12 text-center table-responsive">
+            <table class="table table-warning">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Project Name</th>
+                  <th scope="col">Company Name</th>
+                  <th scope="col">Position</th>
+                  <th scope="col">Link</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <th scope="row">1</th>
+                      <td>eCRM and eCRMTKF</td>
+                      <td>Hong Leong Assurance</td>
+                      <td>API Developer</td>
+                      <td>Mobile APP</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">2</th>
+                      <td>IMSZip and PDFService</td>
+                      <td>Hong Leong Assurance</td>
+                      <td>API Developer</td>
+                      <td>Window Service Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">3</th>
+                      <td>WebAPIFin Tool</td>
+                      <td>Hong Leong Assurance</td>
+                      <td>API Developer</td>
+                      <td>Web Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">4</th>
+                      <td>MDL Process</td>
+                      <td>Nielsen</td>
+                      <td>Scrum Developer</td>
+                      <td>Windows Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">5</th>
+                      <td>RFExtVal Project</td>
+                      <td>Nielsen</td>
+                      <td>Scrum Developer</td>
+                      <td>Windows Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">6</th>
+                      <td>Databank Loader Project</td>
+                      <td>Nielsen</td>
+                      <td>Scrum Developer</td>
+                      <td>DB Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">7</th>
+                      <td>PEARL Project</td>
+                      <td>SCHLUMBERGER</td>
+                      <td>Dotnet Programmer Analyst</td>
+                      <td>Web Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">8</th>
+                      <td>InsuranceBusinessSystem Project</td>
+                      <td>TCI Tech</td>
+                      <td>Dotnet Programmer Analyst</td>
+                      <td>Web Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">9</th>
+                      <td>IBS App</td>
+                      <td>TCI Tech</td>
+                      <td>Dotnet Programmer Analyst</td>
+                      <td>Mobile App</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">10</th>
+                      <td>AmMetLife CUSSP Project</td>
+                      <td>121 Advisor</td>
+                      <td>Dotnet Programmer Analyst</td>
+                      <td>Web Application</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">11</th>
+                      <td>Infobanjir Project</td>
+                      <td>PSI In-control</td>
+                      <td>Programmer Analyst</td>
+                      <td>Web Application</td>
+                  </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+<footer class="mb-0 pb-0">
+  <div class="container-fluid pb-0 mb-0">
+    <div class="row justify-content-center mb-0 pb-0">
+      <div class="col-md-12 col-lg-12 col-sm-6 text-center">
+        <div class="row justify-content-center align-self-center align-items-center">
+          <div class="col-sm-12 col-md-3 col-lg-3 mr-0 pr-0 mt-1 mb-0 pb-0">
+            <p>Copyright 2022 Siva Jyothi</p>
+          </div>
+          <div class="col-sm-12 col-lg-3 col-md-3">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/siva-jyothi-182a6480" target="_blank"><i
+                    class="bi bi-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="https://github.com/SivaJyothi7" target="_blank"><i class="bi bi-github"></i></a>
+              </li>
+              <li>
+                <a href="mailto:sivajyothi07@gmail.com"><i class="bi bi-google"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3 col-lg-3 col-sm-12">
+            <div>
+              <p id="selectDate"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>

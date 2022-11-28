@@ -1,0 +1,183 @@
+// theme color
+@import 'variable.scss';
+
+.navbar-dark{
+    background-color:$primary-color;
+    font-family: $primary-font;
+    border-radius: 15px;
+    box-shadow: 0 0 7px $forth-color;
+}
+.index{
+    background-color: $primary-color;
+    padding:1.5rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin:1.5rem;
+    .card{
+        background-color: $custom-white;
+        border-radius: 15px;
+        box-shadow: 0px 0px 17px $gold-color;
+        position: relative;
+    }
+    .profile{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        box-shadow: 0 0 10px $secondary-color;
+        border:1px solid $primary-color;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('./assets/p.jpg');
+    }
+    .bio {
+        color: $forth-color;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+    #mySidenav a {
+        position:absolute;
+        padding: 15px;
+        width: 170px;
+        text-decoration: none;
+        font-size: 20px;
+        color: $custom-white;
+        border-radius: 40px 0 0 40px;
+      }
+      
+      #mySidenav a:hover {
+        box-shadow: 0 0 19px $custom-white;
+      }
+      #mySidenav a.active {
+        box-shadow: 0 0 19px $custom-white;
+      }
+      #ex {
+        top: 80px;
+        background-color: $gold-color;
+      }
+      
+      #ed {
+        top: 150px;
+        background-color: $navbar-color-blue;
+      }
+      
+      #sk {
+        top: 290px;
+        background-color: $navbar-color-red;
+      }
+      
+      #pr {
+        top: 220px;
+        background-color: $navbar-color-gray
+      }
+      ul{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       } 
+      li{
+        padding-right: 5px;
+        padding-bottom: 0;
+      }
+      .ul-custom{
+        list-style: none;
+        display: flex;
+        padding: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .ul-custom li{
+        margin: 0.86rem;
+      }
+    .a-custom{
+        color: $gold-color;   
+        padding: 5px;
+        text-decoration: none;
+    }
+    .a-custom:hover {
+        background-color: $primary-color;
+        color:#ffffff;
+        cursor: pointer;
+        box-shadow: 0px 0px 0px 3px rgba(255,215,0,1);
+        border-radius: 0px 5px 0px 5px;
+    }
+    .a-custom.active {
+        background-color: $primary-color;
+        color:#ffffff;
+        cursor: pointer;
+        box-shadow: 0px 0px 0px 3px rgba(255,215,0,1);
+        border-radius: 0px 5px 0px 5px;
+    }
+    .custom-div{
+      text-align: justify;
+    }
+    td a{
+      text-decoration: none;
+      color:$forth-color;
+    }
+}
+footer{
+    background-color:$primary-color !important;
+    i{
+        font-size: 1.8rem;
+        padding-right:2px;
+        color:$custom-white;
+    }
+    i:hover{
+        color: $gold-color;
+        cursor: pointer;
+    }
+    p{
+        color: $custom-white;
+        font-size: 0.86rem;
+    }
+}
+.dark-color {
+  background-color: $primary-dark-color !important;
+  .navbar-dark{
+    background-color: $primary-dark-color !important;
+    box-shadow: 0 0 7px $forth-dark-color !important;
+  }
+  .card{
+    box-shadow: 0px 0px 17px $forth-dark-color;
+  }
+  footer{
+    background-color: $primary-dark-color !important;
+    i:hover{
+      color: $forth-dark-color !important;
+    }
+  }
+  .profile{
+    box-shadow: 0 0 10px $secondary-dark-color !important;
+    border:1px solid $primary-dark-color !important;
+  }
+  .bio {
+    color: $forth-dark-color !important;
+  }
+  #ex {
+    background-color: $navbar-color-dark-blue-dark !important;
+  }
+  #ed {
+    background-color: $navbar-color-dark-blue !important;
+  }
+  #pr {
+    background-color: $navbar-color-dark-blue-light !important;
+  }
+  #sk {
+    background-color: $navbar-dark-color-third !important;
+  }
+  .a-custom:hover {
+    background-color: $primary-dark-color !important;
+  }
+  .a-custom.active {
+    background-color: $primary-dark-color !important;
+  }
+  table, td, th{
+    background-color: $secondary-dark-color !important;
+    color:$custom-white !important;
+  }
+  td a{
+    text-decoration: none !important;
+    color:$gold-color !important;
+  }
+}
